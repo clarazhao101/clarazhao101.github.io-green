@@ -168,7 +168,7 @@ h3 {
     display: grid;
     grid-template-columns: 2fr 4fr;
     grid-template-rows: 1fr;
-    width: 70vw;
+    width: 40vw;
     padding: 1em;
     margin: 1em;
     background:rgba(60,179,113,0.5);
@@ -179,7 +179,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70vw;
+    width: 40vw;
     padding: 1em;
     margin: 1em;
     background:rgba(255,255,255,.2);
