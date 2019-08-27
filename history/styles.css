@@ -70,7 +70,7 @@ h3 {
   display: grid;
   grid-template-columns: 2fr 4fr;
   grid-template-rows: 1fr;
-  width: 50em;
+  width: 30em;
   padding: 1em;
   margin: 1em;
   background:rgba(60,179,113,0.5);
