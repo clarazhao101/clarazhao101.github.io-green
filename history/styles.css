@@ -165,14 +165,15 @@ h3 {
 
 @media (max-width: 599px) {
   .eventButton {
-    display: grid;
-    grid-template-columns: 2fr 4fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40vw;
     padding: 1em;
     margin: 1em;
     background:rgba(60,179,113,0.5);
     border-radius: 25px;
+
   }
 
   .geneventButton {
@@ -185,6 +186,7 @@ h3 {
     background:rgba(255,255,255,.2);
     border-radius: 25px;
   }
+
 
   .decadeslist{
   display:flex;
