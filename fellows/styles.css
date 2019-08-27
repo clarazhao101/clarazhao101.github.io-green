@@ -1,0 +1,156 @@
+.bigbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+aside{
+  width:15%;
+  display: flex;
+  flex-direction: column;
+  margin-top:125px;
+  margin-left:5%;
+  margin-right:2%;
+  background-color:white;
+  align-items: center;
+  justify-content: center;
+  height:25vh;
+
+}
+
+aside div{
+  font-size: 1.5em;
+
+}
+
+aside div a{
+  text-decoration: none;
+  color:rgb(30,66,83);
+}
+
+aside div a:hover{
+  color: #4CAF50;
+}
+
+article{
+  width:80%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+article h3{
+  text-align: left;
+  margin-left: 5px;
+}
+
+.flexcontainer{
+  display:flex;
+  flex-direction: row;
+  width:90%;
+  background-color: white;
+  margin-top:20px;
+}
+
+
+
+
+.profilepic{
+  display: flex;
+  flex:1;
+  max-width:450px;
+  align-items:center;
+  justify-content:center;
+  background-color: rgb(30,66,83);
+}
+
+.profilepic img{
+  width:70%;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+.profilecontent{
+  flex:1.5;
+  padding: 20px;
+  background-color: white;
+}
+
+
+@media (max-width: 599px) {
+
+  .bigbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  aside{
+    width:90vw;
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    margin-left:5%;
+    margin-right:2%;
+    background-color:white;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    height:25vh;
+
+  }
+
+  article{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  article h3{
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .flexcontainer{
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    background-color:rgb(30,66,83);
+    align-items: center;
+    margin-top:0;
+  }
+
+
+
+
+  .profilepic{
+    display: flex;
+    flex:1;
+    width: 100vw;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(30,66,83);
+  }
+
+  .profilepic img{
+    width:60%;
+    margin: 3%;
+    border-radius: 50%;
+    border: 8px solid white;
+  }
+
+  .profilecontent{
+    flex:1.5;
+    padding: 20px;
+    background-color: white;
+  }
+
+
+
+
+
+
+}

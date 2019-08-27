@@ -1,0 +1,215 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=carmine-de-fazio-3ytjETpQMNY-unsplash.jpg");
+}
+
+.historynavbar nav ul {
+  list-style-type: none;
+  margin-left: 55px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(30,66,83,.5);
+  height: 7.5em;
+  }
+
+.historynavbar nav ul li {
+  float: right;
+ }
+
+.historynavbar nav ul li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 2em;
+  padding-top: 2.7em;
+  color: rgba(255,255,255,0.5);
+}
+
+.historynavbar nav ul li a:hover, nav ul li a:active, nav ul li .active {
+  color: rgba(255,255,255,1);
+}
+
+#timeline {
+  width: 90vw;
+  margin: auto;
+  border-left: 1px solid white;
+  padding: 2em;
+}
+
+#indextimeline {
+  width: 90vw;
+  margin: auto;
+  border-left: 1px solid white;
+  padding: 2em;
+}
+
+
+button {
+  background:none;
+  border:none;
+}
+
+/*years*/
+h3 {
+  top: 100vh;
+  color:white;
+  text-align:center;
+  font-size: 2em;
+  cursor:pointer;
+  font-weight: 800;
+}
+
+
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  display: none;
+}
+
+/*events*/
+.eventButton {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 1fr;
+  width: 30em;
+  padding: 1em;
+  margin: 1em;
+  background:rgba(60,179,113,0.5);
+  border-radius: 25px;
+}
+
+
+.geneventButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30em;
+  padding: 1em;
+  margin: 1em;
+  background:rgba(255,255,255,.2);
+  border-radius: 25px;
+  color:white;
+}
+
+.eventBox {
+  background-color: white;
+  padding: 2em;
+  border-radius: 25px;
+  background: rgba(255,255,255,.5);
+}
+
+.eventTitle {
+  grid-row:1;
+  grid-column:2/3;
+  color:white;
+  text-align:left;
+}
+
+.eventThumbnail {
+  grid-row:1;
+  grid-column:1/2;
+  height: 100px;
+  width: 100px;
+  border-radius:70px;
+}
+
+
+.eventHeader {
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  color: #1e4253;
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.eventImage {
+  max-width: 50vw;
+  margin: auto;
+  display: block;
+  padding: 1em;
+}
+
+.eventBody {
+}
+
+.activisminfo{
+    padding: 2em;
+    background-color: #ffffff;
+    max-width: 85vw;
+    margin: 0 auto;
+  }
+
+/* index */
+  .decadeslist{
+  display:flex;
+  flex-direction: row;
+  border-bottom: 2px solid white;
+  }
+
+  .decadeslist h3{
+    flex:1;
+    font-size: 1.1em;
+    cursor:pointer;
+    font-weight: 800;
+
+  }
+
+  .decadeslist h3 a{
+    text-decoration: none;
+    color:white;
+  }
+
+  .decadeslist h3 a:hover{
+    color:rgb(60,179,113);
+  }
+
+
+@media (max-width: 599px) {
+  .eventButton {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+    width: 70vw;
+    padding: 1em;
+    margin: 1em;
+    background:rgba(60,179,113,0.5);
+    border-radius: 25px;
+  }
+
+  .geneventButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 1em;
+    margin: 1em;
+    background:rgba(255,255,255,.2);
+    border-radius: 25px;
+  }
+
+  .decadeslist{
+  display:flex;
+  flex-direction:column;
+  border:none;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+  .decadeslist h3{
+    flex:1;
+    font-size: 1.1em;
+    cursor:pointer;
+    font-weight: 800;
+
+  }
+
+  .decadeslist h3 a{
+    text-decoration: none;
+    color:white;
+  }
+
+  .decadeslist h3 a:hover{
+    color:rgb(60,179,113);
+  }
+
+}
