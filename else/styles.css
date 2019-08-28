@@ -1,3 +1,10 @@
 h3{
 text-align: left;
 }
+
+.elseinfo{
+  padding: 2em;
+  background-color: #ffffff;
+  max-width: 70vw;
+  margin: 0 auto;
+}

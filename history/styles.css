@@ -131,6 +131,8 @@ h3 {
 .eventBody {
 }
 
+
+/* index */
 .activisminfo{
     padding: 2em;
     background-color: #ffffff;
@@ -138,7 +140,7 @@ h3 {
     margin: 0 auto;
   }
 
-/* index */
+
   .decadeslist{
   display:flex;
   flex-direction: row;
