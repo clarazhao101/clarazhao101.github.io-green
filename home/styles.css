@@ -80,6 +80,13 @@ icon i{
 
 }
 
+.homeaboutcontent {
+  padding: 2em;
+  background-color: #ffffff;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
 
 @media (max-width: 1000px) {
   h1 {

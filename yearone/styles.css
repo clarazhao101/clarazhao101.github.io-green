@@ -1,0 +1,52 @@
+.yearonemain{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectmain{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding:8px;
+  width:70vw;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.projectimg{
+  flex:1;
+  margin-right: 10px;
+}
+
+.projectimg img{
+  width:200px;
+  height:200px;
+  border-radius: 20px;
+}
+
+.projectcontent{
+  flex:3;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  color: #1e4253;
+  font-size: 22px;
+}
+
+h4 a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #1e4253;
+  font-size: 20px;
+
+}
+
+.projectcontent a{
+  font-family: 'Montserrat', sans-serif;
+  color: #1e4253;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
