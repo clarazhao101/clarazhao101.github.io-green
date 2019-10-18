@@ -7,4 +7,13 @@ text-align: left;
   background-color: #ffffff;
   max-width: 70vw;
   margin: 0 auto;
+  font-family: 'Hind', sans-serif;
+}
+
+.footbar{
+  margin-top:5.5em;
+  margin-bottom: 0;
+  padding: 2em;
+  text-align: center;
+  background-color: rgba(255,255,255,0.75);
 }

@@ -27,6 +27,7 @@
 
 .projectcontent{
   flex:3;
+  font-family: 'Hind', sans-serif;
 }
 
 h4{
@@ -44,7 +45,7 @@ h4 a{
 }
 
 .projectcontent a{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Hind', sans-serif;
   color: #1e4253;
   font-weight: bolder;
   text-decoration: none;
