@@ -171,6 +171,35 @@ h3 {
     color:rgb(60,179,113);
   }
 
+  .bottomnav{
+    display:flex;
+    flex-direction: row;
+    width:70vw;
+    align-items:center;
+
+  }
+
+  .bottomnav div{
+    flex:1;
+    padding:10px;
+    text-align: center;
+    margin-top:40px;
+    margin-left:20px;
+    margin-right: 100px;
+    border-radius: 10px;
+
+  }
+
+  .bottomnav div a{
+    text-decoration: none;
+    color:white;
+  }
+
+  .bottomnav div a:hover{
+    color:rgb(60,179,113);
+    font-weight: bold;
+  }
+
 
 @media (max-width: 599px) {
   .eventButton {
